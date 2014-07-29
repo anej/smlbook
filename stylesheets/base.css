@@ -309,34 +309,33 @@
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
 	box-shadow: 0 1px 3px rgba(0,0,0,.2);
 	margin-top: 3em;
-	height: 550px;
+	height: 225px;
 	position: relative;
 }
-
-.author header {
-	background-color: #f1f1f1;
-	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
-	box-shadow: 0 1px 3px rgba(0,0,0,.2);
-	padding: 1em 0;
-	margin-bottom: 2em;
+.author img {
+	float: left;
 }
+
 .author-name {
 	color:#2cace2;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-transform: uppercase;
 	margin: 0;
 	font-weight: 600;
+/*	background-color: #f1f1f1;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	padding: 1em 0; */
 }
 .author-button {
 	background: #2ecc71;
-	position: absolute;
-	bottom: 1em;
-	width: 90%;
+	width: 100%;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 2em;
 }
 .author-button:hover {
 	background: #1fae5c;
@@ -349,8 +348,8 @@ p.author-bio {
 	position: relative;
 	font-size: 1.1em;
 	text-align: left;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
+	margin-top: 1em;
+	margin-right: 1.3em;
 }
 
 
